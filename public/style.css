@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+    
+img {
+    max-width: 100%;
+    height: auto;
+    display:block;
+    }
+    
+html {
+    
+    font-family:'Courier New', Courier, monospace;
+}
+
+header{
+    border: 4px dashed black;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 40px 30px 40px;
+    border-image:   linear-gradient(to right, cyan , yellow , purple ,red , blue , orange , green ) 1;
+}
+#container{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#rightSide{
+    padding: 10px;
+}
+#rightSide #tetrisScore{
+    border: 1px solid black;
+    text-align: center;
+}
+#rightSide #level{
+    border: 1px solid black;
+    text-align: center;
+}
+#restartBtn{
+    padding: 5px 25px;
+    margin: 10px 20px;
+    background:black;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+button{
+    padding: 5px 5px;
+    margin: 10px;
+    background:black;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    height: 30px;
+}
+div{
+margin: 15px 10px;
+}
+
+/*media queries*/
+@media (min-width:1201px){
+    #container{
+        justify-content: center;
+        display: flex;
+    } 
+}
+@media (max-width:1200px) and (min-width:601px){
+#container{
+    justify-content: center;
+    display: flex;
+}
+
+}
+@media (max-width:600px) {
+    #container{
+        text-align: center;
+    }
+    header{
+        font-size: 2rem;
+    }
+}
